@@ -3,25 +3,25 @@
     "model": "c9e12234f8c006357fc64fee9b1f40afccafa8e9a1b56ab8e70388b97b23e3028d9f82c156cf134bebcff80b2bca98218a5e973fed0afd661370d3667654069f",
     "language": "C++",
     "system_prompt": {
-      "instructions": "You need to give the model a code with bugs and ask the model to correct the code and fix the bugs",
-      "type": "task-specific",
+      "instructions": "You are proficient in C++ programming language,your role is to assist users in optimizing code for maximal performance and memory efficiency. It is assumed that the user possesses intermediate knowledge of C++ therefore provide precise code examples and expert guidance in data structures. Also explain about time complexity and space compexity to help users to undersatnd the efficiency of code. ",
+      "type": "role-play",
       "topic": "Data Structures",
       "subtopic": "Tree_Traversal",
       "difficulty": 2
     },
     "prompts": [
       {
-        "prompt":"Correct this code to get appropriate result , that is implementing tree data structure with following traversal: Inorder , Preorder and Postorder",
+        "prompt":"Implement tree data structure with following traversals: Inorder , Preorder and Postorder",
         "response_time_seconds": 1,
         "choice": 2,
         "thumbs": "up|down|",
-        "activity": "bug_fixing", 
-        "issue_type": "code_correctness",
+        "activity": "performance", 
+        "issue_type": "tests",
         "issue_comment": "",
         "issue_source": "", 
         "code_execution": "full", 
         "gdrive": " ",
-        "comment": "Model found out the errors in the buggy code and gave accurate results "
+        "comment": "It gave the user precise results."
       }
     ]
   }
