@@ -11,7 +11,7 @@
     },
     "prompts": [
       {
-        "prompt":"What is a bitfield in C++.Provide a code snippet with explaination how bitfield is declared in a struct and a class.",
+        "prompt":"What is a bitfield in C++.Provide a code snippet with explaination of how bitfield is declared in a struct and a class.Also explain how bit data or fields in a structure are stored in the memory with proper code explaination in C++.",
         "response_time_seconds": 1 ,
         "choice": 2,
         "thumbs": "",
@@ -22,6 +22,58 @@
         "code_execution": "", 
         "gdrive": " ",
         "comment": ""
+      },
+      {
+        "prompt":"Explain bitfields in C++ in detail. Write the various applications of BitFields.Write a C++ code that demonstrates how to force alignment on the next boundary.",
+        "response_time_seconds": 1 ,
+        "choice": 2,
+        "thumbs": "",
+        "activity": "", 
+        "issue_type": "",
+        "issue_comment": "",
+        "issue_source": "", 
+        "code_execution": "", 
+        "gdrive": " ",
+        "comment": ""
+      },
+      {
+        "prompt":"What are the disadvantages of using bitfields in memory? Explain why pointers cannot be applied for bitfields.",
+        "response_time_seconds": 1 ,
+        "choice": 2,
+        "thumbs": "",
+        "activity": "", 
+        "issue_type": "",
+        "issue_comment": "",
+        "issue_source": "", 
+        "code_execution": "", 
+        "gdrive": " ",
+        "comment": ""
+      },
+      {
+         "prompt":"What happens if you try to assign a value to a bitfield that exceeds the number of bits    allocated?",
+         "response_time_seconds": 1 ,
+         "choice": 2,
+         "thumbs": "",
+         "activity": "", 
+         "issue_type": "",
+         "issue_comment": "",
+         "issue_source": "", 
+         "code_execution": "", 
+         "gdrive": " ",
+         "comment": ""
+      },
+      {
+          "prompt":"Explain packaging of bitfields.Also explain field selection<type> with C++ code snippets.",
+          "response_time_seconds": 1 ,
+          "choice": 2,
+          "thumbs": "",
+          "activity": "", 
+          "issue_type": "",
+          "issue_comment": "",
+          "issue_source": "", 
+          "code_execution": "", 
+          "gdrive": " ",
+          "comment": ""
       }
     ]
-  }
+}
